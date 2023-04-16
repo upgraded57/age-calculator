@@ -18,12 +18,24 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 5vw;
+  text-align: center;
 }
 
 header h1 {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+@media screen and (max-width: 400px) {
+  header h1 {
+    font-size: 1.4em;
+  }
+
+  header p {
+    font-size: 0.9em;
+  }
 }
 
 .container {
@@ -78,7 +90,7 @@ header h1 {
   right: 10px;
   padding: 5px;
   border-radius: 5px;
-  background: white;
+  background: #f0ff1a;
   width: 30px;
   height: 30px;
   display: flex;
