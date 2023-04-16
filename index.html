@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Age Calculator App</h1>
+      <p>Select your birth date to see your precise age</p>
+    </header>
+    <div class="container">
+      <label for="date-input">Select your birth date</label>
+      <input type="date" id="date-input" />
+      <button id="submit-date">Check your age</button>
+
+      <div class="output" id="output-wrapper">
+        <div class="share-btn"><img src="./send-right.svg" alt="Share" /></div>
+        <h3>
+          You are
+          <span id="year-place-holder">0</span> year(s),
+          <span id="month-place-holder">0</span> month(s),
+          <span id="week-place-holder">0</span> weeks(s) and
+          <span id="day-place-holder">0</span> days(s) old
+        </h3>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
