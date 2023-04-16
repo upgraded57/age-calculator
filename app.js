@@ -29,8 +29,7 @@ submitBtn.onclick = () => {
 
   const dayDifference =
     ageDifferenceInDays -
-    (yearDifference * 365 + monthDifference * 30 + weekDifference * 7) -
-    1;
+    (yearDifference * 365 + monthDifference * 30 + weekDifference * 7);
 
   yearPlaceHolder.innerText = yearDifference;
   monthPlaceHolder.innerText = monthDifference;
